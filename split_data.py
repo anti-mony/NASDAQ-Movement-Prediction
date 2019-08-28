@@ -28,8 +28,8 @@ def split_data(file_path = None, df = None, prefix="", seed=1, ret = 0):
     else:
         print("Error : Please Provide a Datafile/Frame")
     
-    train, test = train_test_split(data, test_size=0.25, random_state=seed)
-    train, val = train_test_split(train, test_size=0.25, random_state=seed)
+    train, test = train_test_split(data, test_size=0.25, random_state=seed, shuffle=False)
+    train, val = train_test_split(train, test_size=0.25, random_state=seed, shuffle=False)
     
     dir_prefix = 'ProcessedData/'
     
