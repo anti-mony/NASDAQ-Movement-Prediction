@@ -2,6 +2,8 @@ NASDAQ-Movement-Prediction
 =====
 `Predicting Nasdaq Movement Prediction according to each new article.` 
 
+Here is a blog post describing everything here. [Check it out](https://www.sushantbansal.me/2019-09-10-predictnasdaqwithnews/) 
+
 ### Execution
 
 Just upload the entire repo as is and run a jupyter server. And execute the notebook, after the pre-processing section.
